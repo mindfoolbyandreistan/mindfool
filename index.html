@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mindfool by Andrei Stan</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="icon" href="images/favicon.ico">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Allura&family=BenchNine:wght@300&family=Merriweather&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <a href="#aboutUs" class="logo">Mindfool<span>.</span></a>
+    <div class="menuToggle" onclick="toggleMenu();">
+
+    </div>
+    <ul class="navigation">
+      <li>
+        <a href="#intro" onclick="toggleMenu();">Home</a>
+      </li>
+      <li>
+        <a href="#about" onclick="toggleMenu();">About Me</a>
+      </li>
+      <li>
+        <a href="#aboutWork" onclick="toggleMenu();">My Work</a>
+      </li>
+      <li>
+        <a href="#socialmedia" onclick="toggleMenu();">Social Media</a>
+      </li>
+      <li>
+        <a href="#psiho" onclick="toggleMenu();">Intro Psiho</a>
+      </li>
+      <li>
+        <a href="#contact" onclick="toggleMenu();">Contact</a>
+      </li>
+    </ul>
+  </header>
+
+
+  <!-- SECTION DESCRIPTION FOR THE MINDFOOL -->
+
+  <section class="intro" id="intro">
+    <div class="content">
+      <h2>MINDFOOL</h2>
+      <h4>by Andrei Stan</h4>
+      <p>Aceasta este <em>portalul tău</em> spre a intra în Lumea <em>MindFool</em>. Eu sunt Andrei și aici găsești
+        toate indicațiile de care ai nevoie pentru a putea avea <em>acces la informație</em>, genul de informație de
+        care nu ai auzit până acum. Dacă vrei să afli cine sunt, vezi <em>aici</em>, dacă vrei să vezi munca mea, vezi
+        tot <em>aici</em></p>
+      <a href="https://www.youtube.com/channel/UCcxQ_ZzCratoSezin7mjBaQ" class="button_see">See More...</a>
+    </div>
+  </section>
+
+
+  <!-- ABOUT Me SECTION -->
+
+  <section class="about" id="about">
+    <div class="row">
+      <div class="col50">
+        <h2 class="titleText"><span>A</span>bout Me</h2>
+        <p>
+          De la un licean care a citit o carte și care a crezut în ceva, la student, ulterior masterand în domeniul
+          psihologiei, drumul meu profesional este doar la început. Și cum drumul e plictistor dacă îl parcurgi singur,
+          am zis să iau cu mine cât mai mulți oameni. <em>Destinația</em> (psihoterapeut/psiholog clinican) e doar un
+          loc, însă <em>călătoria</em>(către a fi MindFool) e cea frumoasă.
+        </p>
+      </div>
+      <div class="col50">
+        <div class="imgBx">
+          <img src="images/boy.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ABOUT MY WORK SECTION -->
+
+  <section class="about" id="aboutWork">
+    <div class="row">
+      <div class="col50">
+        <h2 class="titleText"><span>M</span>y <span>W</span>ork</h2>
+        <p>
+          În zilele de azi, este cel mai bine e să ne lăsăm munca să vorbească pentru noi. În total manageriez 6 conturi
+          de social media, 2 de Youtube, 2 de TikTok, Instagram & Facebook. Întreg content-ul meu este despre Promovarea
+          <em>sănătății mentale</em>, <em>psihologiei</em> ca domeniu, <em>informației de calitate</em>. Am un content
+          de tip <em>Edutainment</em>.
+        </p>
+      </div>
+      <div class="col50">
+        <div class="imgBx">
+          <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HEC_EdMs2Qo"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media -->
+
+  <section id="socialmedia">
+
+    <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2><em>+100</em> de videoclipuri, de la relații la anxietate, de la sănătate mentală la cupluri, de la
+            gândire critică la psihoeducație.</h2>
+          <img class="socialmedia-image" src="images/youtube.png" alt="dog-profile">
+          <a href="https://www.youtube.com/channel/UCcxQ_ZzCratoSezin7mjBaQ" id="youtube" class="button_see">Check
+            Youtube</a>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Content light, funny,cu psihologie și sănătate mentală în background. Ghiduri
+            despre tulburări mentale și videoclipuri IGTV.</h2>
+          <img class="socialmedia-image" src="images/instagram.png" alt="lady-profile">
+          <a href="https://www.instagram.com/mindfool_by_andrei_stan/" id="instagram" class="button_see">Check
+            Instagram</a>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Aici se abordează ce este greșit și dezinformativ de pe platformă, practic,
+            distrug mituri despre psihologie și adaug un plus de corectitudine. Psihoeducație+Reacts=FUN.</h2>
+          <img class="socialmedia-image" src="images/tiktok.png" alt="lady-profile">
+          <a href="https://www.tiktok.com/@mindfoolbyandreistan?lang=en" id="tiktok" class="button_see">Check TikTok</a>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonials-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonials-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only"></span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- TRICKS SECTION  -->
+
+  <div class="wrapper" id="psiho">
+    <h2 class="titleText"><span>I</span>ntroducere in <span>P</span>sihologie</h2>
+    <div class="team">
+      <div class="psiho_part">
+        <div class="psiho_img">
+          <img src="images/psychology.svg" alt="Team_image">
+        </div>
+        <h3>Sanatatea Mentala</h3>
+        <p class="role">I</p>
+        <p> Viața este un puzzle care pune cerințe constante creierului și, pe măsură ce oamenii îmbătrânesc,
+          modificările structurii și funcției creierului pot duce la diferite grade de afectare cognitivă. Pentru a
+          reduce riscul, experții recomandă oamenilor să ia în considerare o varietate de variabile ale stilului de
+          viață legate de sănătatea creierului pe termen lung și de performanța mentală.</p>
+      </div>
+      <div class="psiho_part">
+        <div class="psiho_img">
+          <img src="images/mental.svg" alt="Team_image">
+        </div>
+        <h3>Rezolvarea</h3>
+        <p class="role">II</p>
+        <p> Soluția o repreznită multe dintre acțiunile proactive pentru menținerea sănătății creierului sunt obiceiuri
+          pe care experții le-au recomandat mult timp din alte motive: exerciții fizice regulate, o dietă sănătoasă,
+          stimulare mentală și socială, suficientă odihnă, recuperare și tratament medical.</p>
+      </div>
+      <div class="psiho_part">
+        <div class="psiho_img">
+          <img src="images/emotions.svg" alt="Team_image">
+        </div>
+        <h3>Santatea Emotionala</h3>
+        <p class="role">III</p>
+        <p> Emoțiile noastre sunt extrem de importante și merită atenția noastră mai mult. Ele pot dezvălui multe despre
+          cine suntem și cum am fost modelați de trecutul nostru. Emoția conduce multe dintre activitățile noastre, deci
+          este rezonabil să ne întrebăm ce emoții sunt declanșate și de ce. Ce emoții sunt adaptabile și care sunt
+          dezadaptative? Care sunt provocate de prezent, dar își au originile în trecut?</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- CONTACT PART -->
+
+  <section class="contact" id="contact">
+    <div class="contact-me">
+      <h2>Hai să vorbim</h2>
+      <h3>Ce mai astepti?</h3>
+      <p class="contact-message">Sunt încântat să aud de la tine. Dacă ați găsit acest site, ești cool, Hai sa vorbim pe
+        social media. Panâ termin masterul, business wise, srry nu pot încă :)</p>
+      <a class="button_see" href="mailto:mindfoolbyandreistan@gmail.com">CONTACT ME</a>
+    </div>
+  </section>
+
+  <div class="copyrightText">
+    <p>@Mindfool by Andrei Stan</p>
+  </div>
+
+  <!-- JS FUNCTION FOR THE NAVBAR WHEN WE SCROLL -->
+
+  <script type="text/javascript">
+    window.addEventListener('scroll', function () {
+      const header = document.querySelector('header');
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+
+    //  JS FOR THE MENU TO CHANGE
+
+    function toggleMenu() {
+      const menuToggle = document.querySelector('.menuToggle');
+      const navigation = document.querySelector('.navigation');
+      menuToggle.classList.toggle('active');
+      navigation.classList.toggle('active');
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
